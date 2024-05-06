@@ -20,7 +20,7 @@ public class CarCOntroller : MonoBehaviour
     {
         foreach (WheelCollider wheel in throttleWheels)
         {
-            wheel.motorTorque = strengthCoefficient * Time.deltaTime * inputManager.Acceleration * 1000;
+            wheel.motorTorque = strengthCoefficient * Time.deltaTime * inputManager.Acceleration * 1200;
             wheel.wheelDampingRate = inputManager.wheelDampening;
         }
 
