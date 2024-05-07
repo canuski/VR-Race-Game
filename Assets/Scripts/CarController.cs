@@ -7,6 +7,7 @@ public class CarCOntroller : MonoBehaviour
     private PlayerInput inputManager;
     public List<WheelCollider> throttleWheels;
     public List<WheelCollider> steeringWheels;
+    public float speed = 1200f;
     public float strengthCoefficient = 200000f;
     public float maxTurn = 20f;
 
@@ -20,7 +21,7 @@ public class CarCOntroller : MonoBehaviour
     {
         foreach (WheelCollider wheel in throttleWheels)
         {
-            wheel.motorTorque = strengthCoefficient * Time.deltaTime * inputManager.Acceleration * 1200;
+            wheel.motorTorque = strengthCoefficient * Time.deltaTime * inputManager.Acceleration * speed;
             wheel.wheelDampingRate = inputManager.wheelDampening;
         }
 
