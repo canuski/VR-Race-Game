@@ -5,9 +5,9 @@ public class SteeringWheelController : MonoBehaviour
     public WheelCollider frontLeftWheel; // The WheelCollider for steering
     public Transform steeringWheel; // The steering wheel transform
 
-    public float maxWheelSteerAngle = 30f; // Maximum steering angle for the wheels
+    public float maxWheelSteerAngle = 35f; // Maximum steering angle for the wheels
     public float maxSteeringWheelAngle = 360f; // Maximum steering wheel rotation in degrees
-    public float steeringSmoothness = 0.1f; // Smoothness factor for lerp
+    public float steeringSmoothness = 5f; // Smoothness factor for lerp
 
     private Quaternion initialSteeringWheelRotation;
 
