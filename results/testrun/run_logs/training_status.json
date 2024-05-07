@@ -1,0 +1,56 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 499419,
+                "file_path": "results\\testrun\\KartAgent\\KartAgent-499419.onnx",
+                "reward": -5.13166618347168,
+                "creation_time": 1714906838.4010894,
+                "auxillary_file_paths": [
+                    "results\\testrun\\KartAgent\\KartAgent-499419.pt"
+                ]
+            },
+            {
+                "steps": 999394,
+                "file_path": "results\\testrun\\KartAgent\\KartAgent-999394.onnx",
+                "reward": -5.911832928657532,
+                "creation_time": 1714907209.7050176,
+                "auxillary_file_paths": [
+                    "results\\testrun\\KartAgent\\KartAgent-999394.pt"
+                ]
+            },
+            {
+                "steps": 1499528,
+                "file_path": "results\\testrun\\KartAgent\\KartAgent-1499528.onnx",
+                "reward": -7.059374630451202,
+                "creation_time": 1714907584.8869927,
+                "auxillary_file_paths": [
+                    "results\\testrun\\KartAgent\\KartAgent-1499528.pt"
+                ]
+            },
+            {
+                "steps": 1667100,
+                "file_path": "results\\testrun\\KartAgent\\KartAgent-1667100.onnx",
+                "reward": null,
+                "creation_time": 1714907709.7697406,
+                "auxillary_file_paths": [
+                    "results\\testrun\\KartAgent\\KartAgent-1667100.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1667100,
+            "file_path": "results\\testrun\\KartAgent.onnx",
+            "reward": null,
+            "creation_time": 1714907709.7697406,
+            "auxillary_file_paths": [
+                "results\\testrun\\KartAgent\\KartAgent-1667100.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
