@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1715691283",
+        "python_version": "3.9.19 (main, Mar 21 2024, 17:21:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Lau\\anaconda3\\envs\\ML\\Scripts\\mlagents-learn Kart Agent.yaml --run-id=test_easy_circuit --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1715691298"
+    },
+    "total": 14.9116701,
+    "count": 1,
+    "self": 0.006854199999999366,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09782689999999983,
+            "count": 1,
+            "self": 0.09782689999999983
+        },
+        "TrainerController.start_learning": {
+            "total": 14.806989000000002,
+            "count": 1,
+            "self": 9.590000000336829e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 13.415079799999999,
+                    "count": 1,
+                    "self": 13.415079799999999
+                },
+                "TrainerController._save_models": {
+                    "total": 1.391813299999999,
+                    "count": 1,
+                    "self": 0.012072700000000935,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 1.379740599999998,
+                            "count": 1,
+                            "self": 1.379740599999998
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
