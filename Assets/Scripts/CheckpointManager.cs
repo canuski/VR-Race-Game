@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour
 {
-    public float MaxTimeToReachNextCheckpoint = 30f;
-    public float TimeLeft = 30f;
-    
+    public float MaxTimeToReachNextCheckpoint = 20f;
+    public float TimeLeft = 40f;
+
     public KartAgent kartAgent;
     public Checkpoint nextCheckPointToReach;
-    
+
     private int CurrentCheckpointIndex;
     private List<Checkpoint> Checkpoints;
     private Checkpoint lastCheckpoint;
 
-    public event Action<Checkpoint> reachedCheckpoint; 
+    public event Action<Checkpoint> reachedCheckpoint;
 
     void Start()
     {
@@ -27,7 +27,7 @@ public class CheckpointManager : MonoBehaviour
     {
         CurrentCheckpointIndex = 0;
         TimeLeft = MaxTimeToReachNextCheckpoint;
-        
+
         SetNextCheckpoint();
     }
 
@@ -37,27 +37,30 @@ public class CheckpointManager : MonoBehaviour
 
         if (TimeLeft < 0f)
         {
-            kartAgent.AddReward(-1f);
+            kartAgent.AddReward(-3f); // Increase penalty for running out of time
             kartAgent.EndEpisode();
+            Debug.Log("Ran out of time.");
         }
     }
 
     public void CheckPointReached(Checkpoint checkpoint)
     {
         if (nextCheckPointToReach != checkpoint) return;
-        
+
         lastCheckpoint = Checkpoints[CurrentCheckpointIndex];
         reachedCheckpoint?.Invoke(checkpoint);
         CurrentCheckpointIndex++;
 
         if (CurrentCheckpointIndex >= Checkpoints.Count)
         {
-            kartAgent.AddReward(0.5f);
+            kartAgent.AddReward(30f); // Adjust reward for completing the track
+            Debug.Log("Reached all checkpoints");
             kartAgent.EndEpisode();
         }
         else
         {
-            kartAgent.AddReward((0.5f) / Checkpoints.Count);
+            kartAgent.AddReward(20f); // Reward for each checkpoint reached
+            Debug.Log("Reached Checkpoint");
             SetNextCheckpoint();
         }
     }
@@ -68,7 +71,15 @@ public class CheckpointManager : MonoBehaviour
         {
             TimeLeft = MaxTimeToReachNextCheckpoint;
             nextCheckPointToReach = Checkpoints[CurrentCheckpointIndex];
-            
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            kartAgent.AddReward(-1f); // Increase penalty for hitting the wall
+            // Debug.Log("Hit wall");
         }
     }
 }

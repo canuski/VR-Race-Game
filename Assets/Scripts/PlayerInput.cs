@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
@@ -9,15 +8,21 @@ public class PlayerInput : MonoBehaviour
     }
     public float Steering
     {
-        get { return m_Steering;  }
+        get { return m_Steering; }
+    }
+    public float Reverse
+    {
+        get { return m_Reverse; }
     }
 
     float m_Acceleration;
     float m_Steering;
+    float m_Reverse;
 
     bool m_FixedUpdateHappend;
 
     private bool accelerating = false;
+    private bool reversing = false;
     private bool breaking = false;
     private bool turningLeft = false;
     private bool turningRight = false;
@@ -38,6 +43,11 @@ public class PlayerInput : MonoBehaviour
             m_Acceleration = -0.5f;
             wheelDampening = 10000f;
         }
+        else if (reversing)
+        {
+            m_Reverse = 1f;
+            wheelDampening = 500f;
+        }
         else
         {
             m_Acceleration = 0f;
@@ -49,13 +59,13 @@ public class PlayerInput : MonoBehaviour
             m_Steering = -1f;
 
         }
-        else if(!turningLeft && turningRight)
+        else if (!turningLeft && turningRight)
         {
             m_Steering = 1f;
         }
         else
         {
-            m_Steering= 0f;
+            m_Steering = 0f;
         }
     }
     private void GetPlayerInput()
@@ -67,6 +77,15 @@ public class PlayerInput : MonoBehaviour
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
             accelerating = false;
+        }
+
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
+        {
+            reversing = true;
+        }
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
+        {
+            reversing = false;
         }
 
         if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstickDown, OVRInput.Controller.RTouch))
