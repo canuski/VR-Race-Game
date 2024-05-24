@@ -1,0 +1,65 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 394571,
+                "file_path": "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-394571.onnx",
+                "reward": 1445.1442169189454,
+                "creation_time": 1716546283.158037,
+                "auxillary_file_paths": [
+                    "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-394571.pt"
+                ]
+            },
+            {
+                "steps": 499942,
+                "file_path": "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-499942.onnx",
+                "reward": 1439.39253616333,
+                "creation_time": 1716546769.5586686,
+                "auxillary_file_paths": [
+                    "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-499942.pt"
+                ]
+            },
+            {
+                "steps": 999759,
+                "file_path": "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-999759.onnx",
+                "reward": 1445.9131673177083,
+                "creation_time": 1716547552.5014038,
+                "auxillary_file_paths": [
+                    "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-999759.pt"
+                ]
+            },
+            {
+                "steps": 1499763,
+                "file_path": "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-1499763.onnx",
+                "reward": 1285.6445999145508,
+                "creation_time": 1716548567.5675182,
+                "auxillary_file_paths": [
+                    "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-1499763.pt"
+                ]
+            },
+            {
+                "steps": 1697971,
+                "file_path": "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-1697971.onnx",
+                "reward": 1445.2052350725446,
+                "creation_time": 1716548984.8330016,
+                "auxillary_file_paths": [
+                    "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-1697971.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1697971,
+            "file_path": "results\\LevelOscar-Bridge\\KartAgent.onnx",
+            "reward": 1445.2052350725446,
+            "creation_time": 1716548984.8330016,
+            "auxillary_file_paths": [
+                "results\\LevelOscar-Bridge\\KartAgent\\KartAgent-1697971.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1120,7 +1120,7 @@ MonoBehaviour:
   kartModel: {fileID: 3137537921393488654}
   kartNormal: {fileID: 3137537922403377517}
   sphere: {fileID: 3137537921078816491}
-  acceleration: 85
+  acceleration: 90
   steering: 25
   gravity: 25
   layerMask:
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_RaysPerDirection: 5
   m_MaxRayDegrees: 102.1
   m_SphereCastRadius: 0.27
-  m_RayLength: 22
+  m_RayLength: 301
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_RaysPerDirection: 3
   m_MaxRayDegrees: 7
   m_SphereCastRadius: 0.54
-  m_RayLength: 130
+  m_RayLength: 180
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
