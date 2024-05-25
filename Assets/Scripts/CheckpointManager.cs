@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour
 {
-    public float MaxTimeToReachNextCheckpoint = 20f;
-    public float TimeLeft = 40f;
+    public float MaxTimeToReachNextCheckpoint = 30f;
+    public float TimeLeft = 300f;
 
     public KartAgent kartAgent;
     public Checkpoint nextCheckPointToReach;
@@ -78,7 +78,7 @@ public class CheckpointManager : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            kartAgent.AddReward(-1f); // Increase penalty for hitting the wall
+            kartAgent.AddReward(-0.5f); // Increase penalty for hitting the wall
             // Debug.Log("Hit wall");
         }
     }

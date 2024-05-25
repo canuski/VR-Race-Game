@@ -1082,6 +1082,7 @@ GameObject:
   - component: {fileID: 5348140063275243043}
   - component: {fileID: 5412564331613841057}
   - component: {fileID: 1822839050911554055}
+  - component: {fileID: 1891775693424311680}
   m_Layer: 2
   m_Name: Kart
   m_TagString: Untagged
@@ -1120,7 +1121,7 @@ MonoBehaviour:
   kartModel: {fileID: 3137537921393488654}
   kartNormal: {fileID: 3137537922403377517}
   sphere: {fileID: 3137537921078816491}
-  acceleration: 85
+  acceleration: 60
   steering: 25
   gravity: 25
   layerMask:
@@ -1209,7 +1210,7 @@ MonoBehaviour:
   m_RaysPerDirection: 5
   m_MaxRayDegrees: 102.1
   m_SphereCastRadius: 0.27
-  m_RayLength: 22
+  m_RayLength: 301
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
@@ -1237,7 +1238,7 @@ MonoBehaviour:
   m_RaysPerDirection: 3
   m_MaxRayDegrees: 7
   m_SphereCastRadius: 0.54
-  m_RayLength: 130
+  m_RayLength: 180
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
@@ -1246,6 +1247,102 @@ MonoBehaviour:
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
   m_EndVerticalOffset: 0
+--- !u!82 &1891775693424311680
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3137537921882263138}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 91b9711322b6e6747a1036a2df7b13bc, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 20
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3137537922403377426
 GameObject:
   m_ObjectHideFlags: 0
