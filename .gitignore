@@ -10,7 +10,13 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# Ignore specific large files
 Assets/Scenes/LevelOscar/LightingData.asset
+
+# Ignore all .exr and .png files in the directory
+Assets/Scenes/LevelOscar/*.exr
+Assets/Scenes/LevelOscar/*.png
+
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
