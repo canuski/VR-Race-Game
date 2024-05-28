@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 604f45b8f26f1454d9f525a71b18e7d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  labels: [ "oculus_interaction_deprecated" ]
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorComparer.cs
+  uploadId: 618200

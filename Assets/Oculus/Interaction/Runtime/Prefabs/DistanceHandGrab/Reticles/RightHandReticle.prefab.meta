@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 868616af8391f7e4590189328af81942
+labels:
+- oculus_interaction_deprecated
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/RightHandReticle.prefab
+  uploadId: 618200

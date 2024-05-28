@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6661efa421761b4299803adcd8c1c9a
+DefaultImporter:
+  labels: [ "oculus_interaction_deprecated" ]
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Samples/Scenes/BasicPoke.unity
+  uploadId: 618200

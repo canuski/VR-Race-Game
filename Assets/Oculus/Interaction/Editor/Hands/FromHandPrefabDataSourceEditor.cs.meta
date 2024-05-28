@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 7b1127eced26c0748b86cc88310b1711
+labels:
+- oculus_interaction_moved_6d1754bb0e390e44e906221c5091ed9a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,3 +11,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Editor/Hands/FromHandPrefabDataSourceEditor.cs
+  uploadId: 618200

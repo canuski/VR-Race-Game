@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4d9b5c66e8926c3428b6b217ac6373b0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  labels: [ "oculus_interaction_deprecated" ]
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Unity/GrabbableUnityEventWrapper.cs
+  uploadId: 618200

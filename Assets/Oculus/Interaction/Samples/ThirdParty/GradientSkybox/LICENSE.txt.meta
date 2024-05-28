@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4628488afe63ada4a901ff3b2bd66cb4
+TextScriptImporter:
+  externalObjects: {}
+  labels: [ "oculus_interaction_deprecated" ]
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/LICENSE.txt
+  uploadId: 618200

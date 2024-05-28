@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c29f04460f4488144baba5088e75f73d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  labels: [ "oculus_interaction_deprecated" ]
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/InteractableTransformableConnection.cs
+  uploadId: 618200

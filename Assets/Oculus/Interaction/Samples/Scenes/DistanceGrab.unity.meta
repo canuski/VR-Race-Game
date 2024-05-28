@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c2b9e5bdd27a8247b384673cdad70bb
+DefaultImporter:
+  labels: [ "oculus_interaction_deprecated" ]
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Samples/Scenes/DistanceGrab.unity
+  uploadId: 618200

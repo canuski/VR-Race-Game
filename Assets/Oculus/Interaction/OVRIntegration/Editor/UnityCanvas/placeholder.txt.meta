@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bd65392cc81db994a871a049604e2443
+labels:
+- oculus_interaction_deprecated
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/placeholder.txt
+  uploadId: 618200

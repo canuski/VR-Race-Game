@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 2864da2f393a3e948bb12ec4ac9b1782
+labels:
+- oculus_interaction_moved_e76d151a8c71e4d44a1072f66e27b038
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,3 +11,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/AnimatedHandOVR.cs
+  uploadId: 618200

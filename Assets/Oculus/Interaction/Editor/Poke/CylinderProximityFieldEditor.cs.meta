@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 74290836ec4b4a34abf34313e6af3d73
+labels:
+- oculus_interaction_deprecated
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Editor/Poke/CylinderProximityFieldEditor.cs
+  uploadId: 618200

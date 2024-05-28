@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e3f7f90a7ae2f724a95dec4e1b39559e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  labels: [ "oculus_interaction_deprecated" ]
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerPinchAPI.cs
+  uploadId: 618200

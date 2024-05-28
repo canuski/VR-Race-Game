@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f653037372452974eba5acb6a0439f3f
+labels:
+- oculus_interaction_deprecated
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractor.prefab
+  uploadId: 618200

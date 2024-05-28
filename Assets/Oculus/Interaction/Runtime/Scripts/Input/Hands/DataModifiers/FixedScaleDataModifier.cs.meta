@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 97da7545d22d17148b34830b8481bae3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  labels: [ "oculus_interaction_deprecated" ]
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/FixedScaleDataModifier.cs
+  uploadId: 618200

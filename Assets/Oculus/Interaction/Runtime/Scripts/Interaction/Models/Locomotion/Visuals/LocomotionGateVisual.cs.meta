@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 85508c1dcccbf964aa19c3e4ef93fc1e
+labels:
+- oculus_interaction_deprecated
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Locomotion/Visuals/LocomotionGateVisual.cs
+  uploadId: 618200

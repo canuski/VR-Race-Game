@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 738b9f333fadf6c46bb8417e623af83e
+labels:
+- oculus_interaction_deprecated
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab/HandSphereMap.prefab
+  uploadId: 618200

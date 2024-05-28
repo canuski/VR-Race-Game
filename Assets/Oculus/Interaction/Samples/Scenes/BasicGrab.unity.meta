@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 13bd76582a631124699f410c1e007f8c
+DefaultImporter:
+  labels: [ "oculus_interaction_deprecated" ]
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Samples/Scenes/BasicGrab.unity
+  uploadId: 618200

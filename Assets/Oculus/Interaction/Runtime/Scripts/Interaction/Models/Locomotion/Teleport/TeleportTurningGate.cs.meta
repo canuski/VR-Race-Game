@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b8637869a07bdf94d8938ece87dd4174
+labels:
+- oculus_interaction_deprecated
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Locomotion/Teleport/TeleportTurningGate.cs
+  uploadId: 618200

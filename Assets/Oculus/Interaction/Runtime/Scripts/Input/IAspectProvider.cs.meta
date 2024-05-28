@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 3a2c2e62a8a4dcc4fa940702596b345d
+labels:
+- oculus_interaction_deprecated
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Input/IAspectProvider.cs
+  uploadId: 618200

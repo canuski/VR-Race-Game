@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 9eea4af1d251ac548865dcb8d85edb5c
+labels:
+- oculus_interaction_deprecated
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CylinderProximityField.cs
+  uploadId: 618200

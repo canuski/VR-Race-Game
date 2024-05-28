@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 07e1cd5d205161848bba75bdd1513c57
+labels:
+- oculus_interaction_deprecated
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Prefabs/Controller Hands.prefab
+  uploadId: 618200

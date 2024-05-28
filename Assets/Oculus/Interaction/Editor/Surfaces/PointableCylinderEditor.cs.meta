@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1e064752143f9f74b8e450192020fcb8
+labels:
+- oculus_interaction_deprecated
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 57.0
+  assetPath: Assets/Oculus/Interaction/Editor/Surfaces/PointableCylinderEditor.cs
+  uploadId: 618200
