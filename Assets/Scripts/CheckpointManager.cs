@@ -39,7 +39,7 @@ public class CheckpointManager : MonoBehaviour
         {
             kartAgent.AddReward(-3f); // Increase penalty for running out of time
             kartAgent.EndEpisode();
-            Debug.Log("Ran out of time.");
+            //Debug.Log("Ran out of time.");
         }
     }
 
@@ -54,13 +54,13 @@ public class CheckpointManager : MonoBehaviour
         if (CurrentCheckpointIndex >= Checkpoints.Count)
         {
             kartAgent.AddReward(30f); // Adjust reward for completing the track
-            Debug.Log("Reached all checkpoints");
+           // Debug.Log("Reached all checkpoints");
             kartAgent.EndEpisode();
         }
         else
         {
             kartAgent.AddReward(20f); // Reward for each checkpoint reached
-            Debug.Log("Reached Checkpoint");
+            //Debug.Log("Reached Checkpoint");
             SetNextCheckpoint();
         }
     }

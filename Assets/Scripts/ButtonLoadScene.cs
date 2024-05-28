@@ -29,7 +29,7 @@ public class ButtonLoadScene : MonoBehaviour
         button.onClick.AddListener(LoadScene);
     }
 
-    void LoadScene()
+    public void LoadScene()
     {
         // Load the specified scene
         SceneManager.LoadScene(sceneName);

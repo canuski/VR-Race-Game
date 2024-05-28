@@ -2,117 +2,90 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    public float Acceleration
-    {
-        get { return m_Acceleration; }
-    }
-    public float Steering
-    {
-        get { return m_Steering; }
-    }
-    public float Reverse
-    {
-        get { return m_Reverse; }
-    }
-
-    float m_Acceleration;
-    float m_Steering;
-    float m_Reverse;
-
-    bool m_FixedUpdateHappend;
+    public float Acceleration { get; private set; }
+    public float Steering { get; private set; }
+    public float Reverse { get; private set; }
+    public float WheelDampening { get; private set; }
 
     private bool accelerating = false;
     private bool reversing = false;
-    private bool breaking = false;
+    private bool braking = false;
     private bool turningLeft = false;
     private bool turningRight = false;
-
-    public float wheelDampening;
 
     private void Update()
     {
         GetPlayerInput();
 
+        // Debug input states
+        Debug.Log($"Accelerating: {accelerating}");
+        Debug.Log($"Reversing: {reversing}");
+        Debug.Log($"Braking: {braking}");
+        Debug.Log($"Turning Left: {turningLeft}");
+        Debug.Log($"Turning Right: {turningRight}");
+
+        // Manage acceleration and braking states
         if (accelerating)
         {
-            m_Acceleration = 1f;
-            wheelDampening = 500f;
+            Acceleration = 1f;
+            Reverse = 0f;
+            WheelDampening = 500f;
         }
-        else if (breaking)
+        else if (braking)
         {
-            m_Acceleration = -0.5f;
-            wheelDampening = 10000f;
+            Acceleration = -0.5f;
+            Reverse = 0f;
+            WheelDampening = 10000f;
         }
         else if (reversing)
         {
-            m_Reverse = 1f;
-            wheelDampening = 500f;
+            Acceleration = 0f;
+            Reverse = 1f;
+            WheelDampening = 500f;
         }
         else
         {
-            m_Acceleration = 0f;
-            wheelDampening = 5f;
+            Acceleration = 0f;
+            Reverse = 0f;
+            WheelDampening = 5f;
         }
 
+        // Manage steering states
         if (turningLeft)
         {
-            m_Steering = -1f;
-
+            Steering = -1f;
         }
-        else if (!turningLeft && turningRight)
+        else if (turningRight)
         {
-            m_Steering = 1f;
+            Steering = 1f;
         }
         else
         {
-            m_Steering = 0f;
+            Steering = 0f;
         }
+
+        // Debug resulting values
+        Debug.Log($"Acceleration: {Acceleration}");
+        Debug.Log($"Reverse: {Reverse}");
+        Debug.Log($"Steering: {Steering}");
+        Debug.Log($"Wheel Dampening: {WheelDampening}");
     }
+
     private void GetPlayerInput()
     {
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
-        {
-            accelerating = true;
-        }
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
-        {
-            accelerating = false;
-        }
+        // Update input states based on controller input
+        accelerating = OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
+        reversing = OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch);
+        braking = OVRInput.Get(OVRInput.Button.PrimaryThumbstickDown, OVRInput.Controller.RTouch);
+        turningLeft = OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft, OVRInput.Controller.RTouch);
+        turningRight = OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch);
 
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
-        {
-            reversing = true;
-        }
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
-        {
-            reversing = false;
-        }
-
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstickDown, OVRInput.Controller.RTouch))
-        {
-            breaking = true;
-        }
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryThumbstickDown, OVRInput.Controller.RTouch))
-        {
-            breaking = false;
-        }
-
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstickLeft, OVRInput.Controller.RTouch))
-        {
-            turningLeft = true;
-        }
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryThumbstickLeft, OVRInput.Controller.RTouch))
-        {
-            turningLeft = false;
-        }
-
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch))
-        {
-            turningRight = true;
-        }
-        if (OVRInput.GetUp(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch))
-        {
-            turningRight = false;
-        }
+        // Debug input detection
+        Debug.Log("Inputs detected:");
+        Debug.Log($"PrimaryIndexTrigger: {OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch)}");
+        Debug.Log($"PrimaryHandTrigger: {OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch)}");
+        Debug.Log($"PrimaryThumbstickDown: {OVRInput.Get(OVRInput.Button.PrimaryThumbstickDown, OVRInput.Controller.RTouch)}");
+        Debug.Log($"PrimaryThumbstickLeft: {OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft, OVRInput.Controller.RTouch)}");
+        Debug.Log($"PrimaryThumbstickRight: {OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch)}");
     }
 }

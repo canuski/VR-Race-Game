@@ -8,7 +8,6 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
     public float transitionSpeed = 5f; // Speed of the transition
     private Vector3 originalScale; // Store the original scale of the button
     private Vector3 targetScale; // The scale we are transitioning to
-    private bool isHovered = false; // Flag to check if the button is hovered
 
     void Start()
     {
@@ -29,7 +28,6 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
     {
         // Set the target scale to the hover scale
         targetScale = hoverScale;
-        isHovered = true;
     }
 
     // Method called when the pointer exits the button area
@@ -37,6 +35,5 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
     {
         // Set the target scale back to the original scale
         targetScale = originalScale;
-        isHovered = false;
     }
 }

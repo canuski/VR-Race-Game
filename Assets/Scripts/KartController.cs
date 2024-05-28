@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.Rendering.PostProcessing;
-using Cinemachine;
+// using Cinemachine;
 
 public class KartController : MonoBehaviour
 {
@@ -47,8 +47,8 @@ public class KartController : MonoBehaviour
       kartModel.localEulerAngles = Vector3.Lerp(kartModel.localEulerAngles, new Vector3(0, 90 + (input * 15), kartModel.localEulerAngles.z), .2f);
       
       frontWheels.localEulerAngles = new Vector3(0, (input * 15), frontWheels.localEulerAngles.z);
-      frontWheels.localEulerAngles += new Vector3(0, 0, sphere.velocity.magnitude / 2);
-      backWheels.localEulerAngles += new Vector3(0, 0, sphere.velocity.magnitude / 2);
+      frontWheels.localEulerAngles += new Vector3(0, 0, sphere.linearVelocity.magnitude / 2);
+      backWheels.localEulerAngles += new Vector3(0, 0, sphere.linearVelocity.magnitude / 2);
       
       steeringWheel.localEulerAngles = new Vector3(-25, 90, ((input * 45)));
    }

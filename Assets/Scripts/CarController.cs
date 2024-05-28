@@ -1,14 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarCOntroller : MonoBehaviour
+public class CarController : MonoBehaviour
 {
-
     private PlayerInput inputManager;
     public List<WheelCollider> throttleWheels;
     public List<WheelCollider> steeringWheels;
-    public float speed = 1200f;
-    public float strengthCoefficient = 200000f;
+    public float speed = 500f;
+    public float strengthCoefficient = 20000f;
     public float maxTurn = 20f;
 
     void Start()
@@ -16,7 +15,6 @@ public class CarCOntroller : MonoBehaviour
         inputManager = GetComponent<PlayerInput>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         foreach (WheelCollider wheel in throttleWheels)
@@ -29,14 +27,18 @@ public class CarCOntroller : MonoBehaviour
             {
                 wheel.motorTorque = -strengthCoefficient * Time.deltaTime * inputManager.Reverse * speed;
             }
-            wheel.wheelDampingRate = inputManager.wheelDampening;
-        }
+            else
+            {
+                wheel.motorTorque = 0;
+            }
 
+            // Set wheel damping rate
+            wheel.wheelDampingRate = inputManager.WheelDampening;
+        }
 
         foreach (WheelCollider wheel in steeringWheels)
         {
             wheel.steerAngle = maxTurn * inputManager.Steering;
-            wheel.wheelDampingRate *= inputManager.wheelDampening;
         }
     }
 }
