@@ -787,8 +787,8 @@ MonoBehaviour:
   - {r: 1, g: 0.4124294, b: 0, a: 0}
   - {r: 0.5660378, g: 0.22977771, b: 0, a: 0}
   - {r: 0.6132076, g: 0.39627093, b: 0.25164652, a: 0}
-  minIntensity: 400
-  maxIntensity: 550
+  minIntensity: 500
+  maxIntensity: 700
 --- !u!1 &228236628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,8 +1733,8 @@ MonoBehaviour:
   - {r: 0.40784314, g: 0.96862745, b: 0.9137255, a: 0}
   - {r: 0.40784314, g: 0.9098039, b: 0.96862745, a: 0}
   - {r: 0.40784314, g: 0.7411765, b: 0.96862745, a: 0}
-  minIntensity: 400
-  maxIntensity: 550
+  minIntensity: 500
+  maxIntensity: 700
 --- !u!114 &610982852
 MonoBehaviour:
   m_ObjectHideFlags: 0
