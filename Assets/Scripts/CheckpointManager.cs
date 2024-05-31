@@ -60,7 +60,7 @@ public class CheckpointManager : MonoBehaviour
         else
         {
             kartAgent.AddReward(20f); // Reward for each checkpoint reached
-            //Debug.Log("Reached Checkpoint");
+            Debug.Log("Reached Checkpoint");
             SetNextCheckpoint();
         }
     }
