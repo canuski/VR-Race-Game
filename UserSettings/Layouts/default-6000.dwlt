@@ -834,7 +834,11 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 2258.0344, y: 1082.9221, z: 42.81401}
+=======
+    m_Target: {x: 2198.8755, y: 1058.3187, z: -16.04621}
+>>>>>>> fcf088bf (map optimization)
     speed: 2
     m_Value: {x: 2258.0344, y: 1082.9221, z: 42.81401}
   m_RenderMode: 0
@@ -882,11 +886,19 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.01612983, y: 0.9715433, z: -0.22635832, w: -0.06892174}
+=======
+    m_Target: {x: -0.48100734, y: 0.025243228, z: -0.0151246535, w: -0.8765531}
+>>>>>>> fcf088bf (map optimization)
     speed: 2
     m_Value: {x: -0.016129833, y: 0.9715433, z: -0.22635832, w: -0.068921745}
   m_Size:
+<<<<<<< HEAD
     m_Target: 0.18317671
+=======
+    m_Target: 158.68588
+>>>>>>> fcf088bf (map optimization)
     speed: 2
     m_Value: 0.18317671
   m_Ortho:

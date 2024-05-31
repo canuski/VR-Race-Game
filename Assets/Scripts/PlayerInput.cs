@@ -18,12 +18,13 @@ public class PlayerInput : MonoBehaviour
         GetPlayerInput();
 
         // Debug input states
+        /*
         Debug.Log($"Accelerating: {accelerating}");
         Debug.Log($"Reversing: {reversing}");
         Debug.Log($"Braking: {braking}");
         Debug.Log($"Turning Left: {turningLeft}");
         Debug.Log($"Turning Right: {turningRight}");
-
+        */
         // Manage acceleration and braking states
         if (accelerating)
         {
@@ -65,10 +66,12 @@ public class PlayerInput : MonoBehaviour
         }
 
         // Debug resulting values
+        /*
         Debug.Log($"Acceleration: {Acceleration}");
         Debug.Log($"Reverse: {Reverse}");
         Debug.Log($"Steering: {Steering}");
         Debug.Log($"Wheel Dampening: {WheelDampening}");
+        */
     }
 
     private void GetPlayerInput()
@@ -81,11 +84,13 @@ public class PlayerInput : MonoBehaviour
         turningRight = OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch);
 
         // Debug input detection
+        /*
         Debug.Log("Inputs detected:");
         Debug.Log($"PrimaryIndexTrigger: {OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch)}");
         Debug.Log($"PrimaryHandTrigger: {OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch)}");
         Debug.Log($"PrimaryThumbstickDown: {OVRInput.Get(OVRInput.Button.PrimaryThumbstickDown, OVRInput.Controller.RTouch)}");
         Debug.Log($"PrimaryThumbstickLeft: {OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft, OVRInput.Controller.RTouch)}");
         Debug.Log($"PrimaryThumbstickRight: {OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch)}");
+        */
     }
 }
