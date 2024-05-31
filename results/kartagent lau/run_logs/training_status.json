@@ -2,42 +2,6 @@
     "KartAgent": {
         "checkpoints": [
             {
-                "steps": 858080,
-                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-858080.onnx",
-                "reward": 752.3238563802507,
-                "creation_time": 1717168025.5023303,
-                "auxillary_file_paths": [
-                    "results\\kartagent lau\\KartAgent\\KartAgent-858080.pt"
-                ]
-            },
-            {
-                "steps": 998015,
-                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-998015.onnx",
-                "reward": 1507.3780059814453,
-                "creation_time": 1717168371.518312,
-                "auxillary_file_paths": [
-                    "results\\kartagent lau\\KartAgent\\KartAgent-998015.pt"
-                ]
-            },
-            {
-                "steps": 999015,
-                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-999015.onnx",
-                "reward": null,
-                "creation_time": 1717169431.4697201,
-                "auxillary_file_paths": [
-                    "results\\kartagent lau\\KartAgent\\KartAgent-999015.pt"
-                ]
-            },
-            {
-                "steps": 1033962,
-                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-1033962.onnx",
-                "reward": 1508.7702950371636,
-                "creation_time": 1717169469.4756742,
-                "auxillary_file_paths": [
-                    "results\\kartagent lau\\KartAgent\\KartAgent-1033962.pt"
-                ]
-            },
-            {
                 "steps": 1089409,
                 "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-1089409.onnx",
                 "reward": 1509.0110806551847,
@@ -45,15 +9,51 @@
                 "auxillary_file_paths": [
                     "results\\kartagent lau\\KartAgent\\KartAgent-1089409.pt"
                 ]
+            },
+            {
+                "steps": 1125706,
+                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-1125706.onnx",
+                "reward": 1509.3275131225587,
+                "creation_time": 1717171506.227141,
+                "auxillary_file_paths": [
+                    "results\\kartagent lau\\KartAgent\\KartAgent-1125706.pt"
+                ]
+            },
+            {
+                "steps": 1139794,
+                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-1139794.onnx",
+                "reward": 671.8756666183472,
+                "creation_time": 1717172412.1810067,
+                "auxillary_file_paths": [
+                    "results\\kartagent lau\\KartAgent\\KartAgent-1139794.pt"
+                ]
+            },
+            {
+                "steps": 1149794,
+                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-1149794.onnx",
+                "reward": null,
+                "creation_time": 1717172771.5909908,
+                "auxillary_file_paths": [
+                    "results\\kartagent lau\\KartAgent\\KartAgent-1149794.pt"
+                ]
+            },
+            {
+                "steps": 1206382,
+                "file_path": "results\\kartagent lau\\KartAgent\\KartAgent-1206382.onnx",
+                "reward": null,
+                "creation_time": 1717172991.543277,
+                "auxillary_file_paths": [
+                    "results\\kartagent lau\\KartAgent\\KartAgent-1206382.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 1089409,
+            "steps": 1206382,
             "file_path": "results\\kartagent lau\\KartAgent.onnx",
-            "reward": 1509.0110806551847,
-            "creation_time": 1717169656.2941537,
+            "reward": null,
+            "creation_time": 1717172991.543277,
             "auxillary_file_paths": [
-                "results\\kartagent lau\\KartAgent\\KartAgent-1089409.pt"
+                "results\\kartagent lau\\KartAgent\\KartAgent-1206382.pt"
             ]
         }
     },
