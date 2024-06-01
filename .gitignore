@@ -14,8 +14,8 @@
 Assets/Scenes/LevelOscar/LightingData.asset
 
 # Ignore all .exr and .png files in the directory
-Assets/Scenes/LevelOscar/*.exr
-Assets/Scenes/LevelOscar/*.png
+Assets/Scenes/LevelOscar/
+Assets/Scenes/LevelLaurence/
 
 
 # Never ignore Asset meta data
