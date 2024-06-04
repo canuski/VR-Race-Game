@@ -3,7 +3,27 @@ guid: b4939268013d18241ae0253671886c2b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: dbc1aa9e28827f940a7b2c91293d4152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: 744c56d3d182fd5469eaaa8f098c4147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 50ea901359cc8904bb7fdfbda036fe56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankco
+    second: {fileID: 2100000, guid: 87f35943f7bf9774ba22e3ddbae0c9f2, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
