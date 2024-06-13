@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - Checkpoint
   - Gameplay
+  - RoomLight
+  - SamplesInfoPanel
   layers:
   - Default
   - TransparentFX
@@ -16,12 +18,12 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - MainCameraLayer
   - Kart
   - Post
   - Road
   - Checkpoint
-  - 
+  - NOPostprocessing
   - 
   - 
   - 
