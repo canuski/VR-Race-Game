@@ -139,7 +139,7 @@ ModelImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 82022
-  packageName: Oculus Integration
-  packageVersion: 57.0
+  packageName: Oculus Integration (Deprecated)
+  packageVersion: 57.0.2-deprecated
   assetPath: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_trigger_pull_anim.fbx
-  uploadId: 618200
+  uploadId: 667590

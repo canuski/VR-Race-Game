@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a501977362c440042b5893b02f548dd0
+guid: bcc7a7c3b0caf6843851b71dac78c61c
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
@@ -9,7 +9,7 @@ NativeFormatImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 82022
-  packageName: Oculus Integration
-  packageVersion: 57.0
+  packageName: Oculus Integration (Deprecated)
+  packageVersion: 57.0.2-deprecated
   assetPath: Assets/Oculus/OculusProjectConfig.asset
-  uploadId: 618200
+  uploadId: 667590

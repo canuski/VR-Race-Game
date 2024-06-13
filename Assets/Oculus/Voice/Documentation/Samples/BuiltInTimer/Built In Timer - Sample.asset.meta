@@ -9,8 +9,8 @@ NativeFormatImporter:
 AssetOrigin:
   serializedVersion: 1
   productId: 82022
-  packageName: Oculus Integration
-  packageVersion: 57.0
+  packageName: Oculus Integration (Deprecated)
+  packageVersion: 57.0.2-deprecated
   assetPath: Assets/Oculus/Voice/Documentation/Samples/BuiltInTimer/Built In Timer
     - Sample.asset
-  uploadId: 618200
+  uploadId: 667590
