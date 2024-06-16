@@ -76,10 +76,10 @@ Het verschil in uiteindelijke beloningen is te wijten aan het feit dat de agents
 ## Alle Informatie van de One-Pager
 
 ### Team en Functies
-- **Laurence Leysen:** Focust op AI training binnen het project.
+- **Laurence Leysen:** Focust op AI training binnen het project en ondersteunt de rest van de groep.
 - **Abdulla Bagishev:** Verantwoordelijk voor de documentatie, intro en de main menu.
-- **Oscar Alexander:** Leidt de VR implementatie.
-- **Mohammed Asad:** Ontwikkelt de assets en het wereldontwerp.
+- **Oscar Alexander:** Leidt de VR implementatie, AI training voor zijn level en algemene taken (lightmaps,...).
+- **Mohammed Asad:** Ontwikkelt de assets en het wereldontwerp en AI trainging voor zijn level.
 
 ### Spellogica
 Het spel start met de speler in een kart, klaar om te racen tegen AI-tegenstanders die voor, achter, links en rechts van de speler kunnen zijn. Het circuit is ontworpen met muren aan de zijkanten om de racebaan duidelijk te markeren en om te voorkomen dat spelers van de baan afrijden.
