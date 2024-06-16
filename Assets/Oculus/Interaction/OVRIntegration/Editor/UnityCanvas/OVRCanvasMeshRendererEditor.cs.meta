@@ -1,7 +1,12 @@
 fileFormatVersion: 2
 guid: 99515fe40d88cbc438e5059565d292ad
-labels:
-- oculus_interaction_moved_450015b3adfc77143b5481c3325efd0b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration (Deprecated)
+  packageVersion: 57.0.2-deprecated
+  assetPath: Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/OVRCanvasMeshRendererEditor.cs
+  uploadId: 667590
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -11,10 +16,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82022
-  packageName: Oculus Integration (Deprecated)
-  packageVersion: 57.0.2-deprecated
-  assetPath: Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/OVRCanvasMeshRendererEditor.cs
-  uploadId: 667590

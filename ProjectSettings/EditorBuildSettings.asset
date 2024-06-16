@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelOscar.unity
     guid: 53eec6d06bf34e84390b19301892c418
   - enabled: 1
-    path: Assets/Scenes/LevelMohammed.unity
-    guid: 6907e87c590e28c4bb8f887b7ab4ef36
-  - enabled: 1
     path: Assets/Scenes/LevelLaurence.unity
     guid: 5b12222ba91bcce44bc6907a0f72049b
+  - enabled: 1
+    path: Assets/Scenes/LevelMohammed.unity
+    guid: 6907e87c590e28c4bb8f887b7ab4ef36
   - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 77812b2f7017ca94ba72aa5b5df73afe

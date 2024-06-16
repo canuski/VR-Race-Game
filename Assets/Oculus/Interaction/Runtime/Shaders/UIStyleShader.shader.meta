@@ -1,15 +1,5 @@
 fileFormatVersion: 2
 guid: 945300705d5265c40880df9dc394ebd5
-labels:
-- oculus_interaction_moved_a8f9f5485060a834cbf854a51a7768dc
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures: []
-  nonModifiableTextures: []
-  preprocessorOverride: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 82022
@@ -17,3 +7,10 @@ AssetOrigin:
   packageVersion: 57.0.2-deprecated
   assetPath: Assets/Oculus/Interaction/Runtime/Shaders/UIStyleShader.shader
   uploadId: 667590
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
