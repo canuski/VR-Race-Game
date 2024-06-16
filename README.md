@@ -78,7 +78,7 @@ Het verschil in uiteindelijke beloningen is te wijten aan het feit dat de agents
 ### Team en Functies
 - **Laurence Leysen:** Focust op AI training binnen het project en ondersteunt de rest van de groep.
 - **Abdulla Bagishev:** Verantwoordelijk voor de documentatie, intro en de main menu.
-- **Oscar Alexander:** Leidt de VR implementatie, AI training voor zijn level en algemene taken (lightmaps,...).
+- **Oscar Alexander:** Leidt de VR implementatie, AI training voor zijn level, algemene taken (lightmaps, omgang tussen levels) en de outro.
 - **Mohammed Asad:** Ontwikkelt de assets en het wereldontwerp en AI trainging voor zijn level.
 
 ### Spellogica
